@@ -1,4 +1,4 @@
-package conversion
+package anylist
 
 type intListNode struct {
 	child *intListNode
