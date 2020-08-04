@@ -1,4 +1,4 @@
-# list
+# listimpl
 
 ```
 BenchmarkIntList/IntList1-4         	     188	   6204001 ns/op	 2402868 B/op	  100003 allocs/op

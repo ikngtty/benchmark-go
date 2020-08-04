@@ -1,4 +1,4 @@
-package list
+package listimpl
 
 type IntList2 struct {
 	first *intListNode

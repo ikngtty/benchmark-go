@@ -1,4 +1,4 @@
-package list
+package listimpl
 
 type intListNode struct {
 	child *intListNode
