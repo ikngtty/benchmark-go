@@ -36,7 +36,7 @@ func (list *IntList1) Concat(other *IntList1) {
 	}
 	list.last.child = other.root.child
 	list.last = other.last
-	list.len += other.Len()
+	list.len += other.len
 }
 
 func (list *IntList1) Each(f func(elem int)) {

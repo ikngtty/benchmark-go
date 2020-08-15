@@ -37,12 +37,12 @@ func (list *IntList2) Add(elem int) {
 func (list *IntList2) Concat(other *IntList2) {
 	if list.first == nil {
 		*list = *other
-	} else if other.Len() == 0 {
+	} else if other.first == nil {
 		// Do nothing
 	} else {
 		list.last.child = other.first
 		list.last = other.last
-		list.len += other.Len()
+		list.len += other.len
 	}
 }
 
