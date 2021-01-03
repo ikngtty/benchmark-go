@@ -4,6 +4,6 @@
 goos: darwin
 goarch: amd64
 pkg: github.com/ikngtty/benchmark-go/anylist
-BenchmarkList/IntList-4         	     228	   5271259 ns/op	 1600000 B/op	  100000 allocs/op
-BenchmarkList/AnyList-4         	     156	   7571326 ns/op	 4000001 B/op	  199999 allocs/op
+BenchmarkList/IntList-4         	     234	   5012596 ns/op	 1600002 B/op	  100000 allocs/op
+BenchmarkList/AnyList-4         	     162	   7444448 ns/op	 3997960 B/op	  199744 allocs/op
 ```
