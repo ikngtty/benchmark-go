@@ -44,7 +44,7 @@ func BenchmarkPow(b *testing.B) {
 	for _, f := range powFuncs {
 		b.Run(f.name, func(b *testing.B) {
 			for i := 0; i < b.N; i++ {
-				f.body(2, 30)
+				f.body(7, 10)
 			}
 		})
 	}
